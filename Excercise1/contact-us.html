@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="navbar">
+            <a href="index.html">
+                <img src="../images/logo.png" alt="logo" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="subjects.html">Subjects</a></li>
+                    <li><a href="about-us.html">About us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <img src="../images/contact-us.jpg" alt="main-background" class="hero-img">
+        <section>
+            <div>
+                <div class="col-card">
+                    <h3>All around the clock</h3>
+                    <h5>Our real-time response always satisfies the end user.</h5>
+                    <img src="../images/24-hours.png" alt="icon">
+                </div>
+                <div class="col-card">
+                    <img src="../images/contact-us-icon1.png" alt="icon">
+                    <h3>Always With you</h3>
+                    <h5>If you are interested in our partner network and need assistance selecting the right partner to move your project forward, please complete the form below and we will connect with you shortly.</h5>
+                </div>
+            </div>
+
+            <div id="form-container-id">
+                <h3>How Can We Help?</h3>
+                <h4>Please fill in the information below</h4>
+                <fieldset id="form-id">
+
+                    <form method="post">
+                        <ul>
+                            <li>
+                                <label for="fname"> First Name : <abbr title="required" aria-label="required">*</abbr></label><br>
+                                <input type="text" id="fname" name="fname" pattern="[Α-Ω]{*} [α-ω]{*}" required title="[Α-Ω]* [α-ω]*" size="50"><br>
+                            </li>
+                            <li>
+                                <label for="email">Email : <abbr title="required" aria-label="required" size="50">*</abbr></label><br>
+                                <input type="email" id="email" name="email" required><br>
+                            </li>
+                            <li>
+                                <label for="phonenum">Phone Number:</label><br>
+                                <input type="tel" id="phonenum" name="phone" size="50">
+                            </li>
+                            <li>
+                                <label for="msg">Message : <abbr title="required" aria-label="required" size="600">*</abbr></label><br>
+                                <textarea id="msg" name="user_message"></textarea>
+                            </li>
+                        </ul>
+                        <br>
+                        <button>Submit</button>
+                    </form>
+                </fieldset>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>MOOC</h3>
+            <p>Massive Open Online Courses (MOOCs) are free online courses available for anyone. This is an affordableand flexible way to learn skills,boost your skills and deliver quality educational content scale.
+            </p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Lefteris Michailidis - 0030 6982525424</a> </p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="subjects.html">Subjects</a></li>
+                    <li><a href="contact-us.html" class="w3-bar-item w3-button">Contact Us</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
