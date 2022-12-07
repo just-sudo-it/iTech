@@ -355,6 +355,13 @@ h5 {
     display: inline-block;
 }
 
+.product-hero-img{
+    object-fit:contain;
+    width: 40%;
+    display:inline-block; 
+     margin: 50px 0px 50px 0px;
+}
+
 .product-card {
     width: 22%;
     height: 590px;
@@ -455,6 +462,12 @@ h3 {
     margin: 0px;
 }
 
+.product-title{
+    width: 40%;
+    display:inline-block;
+     text-align: start;
+      font-size: 3.5rem;
+}
 
 /*price card ( child of product card) styles*/
 .price-card {
@@ -870,6 +883,13 @@ footer {
     .frame {
         margin: 15px;
     }
+    .product-title{
+        width: 50%;
+        height: auto;
+        display:inline-block;
+         text-align: start;
+          font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -979,6 +999,18 @@ footer {
     #form-container-id {
         width: 73%;
     }
+    .product-title{
+        width: 100%;
+        height: auto;
+        display:block;
+         text-align: center;
+          font-size: 2rem;
+    }
+    .product-hero-img{
+        object-fit:contain;
+        width: 100%;
+        display:-block; 
+     }
 }
 
 
