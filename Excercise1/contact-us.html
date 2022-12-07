@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
     <title>Contact Us</title>
 </head>
 
@@ -16,7 +18,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="subjects.html">Subjects</a></li>
+                    <li><a href="product-categories.html">Products</a></li>
                     <li><a href="about-us.html">About us</a></li>
                     <li><a href="contact-us.html">Contact Us</a></li>
                 </ul>
@@ -28,57 +30,87 @@
         <img src="../images/contact-us.jpg" alt="main-background" class="hero-img">
         <section>
             <div>
-                <div class="col-card">
+                <div class="card col-50 icon-component">
+                    <img src="../images/24-hours.png" alt="icon">
                     <h3>All around the clock</h3>
                     <h5>Our real-time response always satisfies the end user.</h5>
-                    <img src="../images/24-hours.png" alt="icon">
                 </div>
-                <div class="col-card">
+                <div class="card col-50 icon-component">
                     <img src="../images/contact-us-icon1.png" alt="icon">
                     <h3>Always With you</h3>
-                    <h5>If you are interested in our partner network and need assistance selecting the right partner to move your project forward, please complete the form below and we will connect with you shortly.</h5>
+                    <h5>If you are interested in us, please complete the form .</h5>
                 </div>
             </div>
-
+        </section>
+        <section>
             <div id="form-container-id">
                 <h3>How Can We Help?</h3>
                 <h4>Please fill in the information below</h4>
                 <fieldset id="form-id">
-
                     <form method="post">
-                        <ul>
+                        <ul class="form-list">
                             <li>
-                                <label for="fname"> First Name : <abbr title="required" aria-label="required">*</abbr></label><br>
-                                <input type="text" id="fname" name="fname" pattern="[Α-Ω]{*} [α-ω]{*}" required title="[Α-Ω]* [α-ω]*" size="50"><br>
+                                <label for="fname">Name : <abbr title="required"
+                                        aria-label="required">*</abbr></label><br>
+                                <input type="text" id="fname" autocomplete="given-name" name="fname"
+                                    pattern="[Α-Ω]{*} [α-ω]{*}" required title="[Α-Ω]* [α-ω]*" size="50"><br>
                             </li>
                             <li>
-                                <label for="email">Email : <abbr title="required" aria-label="required" size="50">*</abbr></label><br>
+                                <label for="email">Email : <abbr title="required" aria-label="required"
+                                        size="50">*</abbr></label><br>
                                 <input type="email" id="email" name="email" required><br>
                             </li>
                             <li>
                                 <label for="phonenum">Phone Number:</label><br>
-                                <input type="tel" id="phonenum" name="phone" size="50">
+                                <input type="tel" autocomplete="tel" id="phonenum" name="phone" size="50">
                             </li>
                             <li>
-                                <label for="msg">Message : <abbr title="required" aria-label="required" size="600">*</abbr></label><br>
+                                <label for="fname">Product SKU : </label><br>
+                                <input type="text" list="sku-list" id="country" name="country" required minlength="4"
+                                    maxlength="14" size="50" autocomplete="off" />
+
+                                <datalist id="sku-list">
+                                    <option>001-3214</option>
+                                    <option>002-3214</option>
+                                    <option>003-3214</option>
+                                    <option>004-3210</option>
+                                    <option>001-78214</option>
+                                    <option>001-9214</option>
+                                </datalist>
+                            </li>
+                            <li>
+                                <label for="fname"> Invoice(Optional) : </label><br>
+                                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+                            </li>
+                            <li>
+                                <label for="start">Date Purchased:</label>
+                                <input type="date" id="start" name="trip-start" value="2022-11-22" min="2018-01-01"
+                                    max="2023-12-31">
+
+                            </li>
+                            <li>
+                                <label for="msg">Message : <abbr title="required" aria-label="required"
+                                        size="600">*</abbr></label><br>
                                 <textarea id="msg" name="user_message"></textarea>
                             </li>
                         </ul>
                         <br>
-                        <button>Submit</button>
+                        <input type="submit" value="Submit">
                     </form>
                 </fieldset>
             </div>
-
 
         </section>
     </main>
 
     <footer>
         <div class="footer-content">
-            <h3>MOOC</h3>
-            <p>Massive Open Online Courses (MOOCs) are free online courses available for anyone. This is an affordableand flexible way to learn skills,boost your skills and deliver quality educational content scale.
+            <h3>i-Tech</h3>
+            <p>i-Tech Works smarter.Plays harder.Goes further.Oriented towards professionals ready
+                to push their creativity, these industry-leading apps offer maximum
+                control over editing, processing, and output of music and film.
             </p>
+            <h3>Don’t take it lightly.</h3>
             <ul class="socials">
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
@@ -89,7 +121,7 @@
             <div class="footer-menu">
                 <ul class="f-menu">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="subjects.html">Subjects</a></li>
+                    <li><a href="product-categories.html">Products</a></li>
                     <li><a href="contact-us.html" class="w3-bar-item w3-button">Contact Us</a></li>
                     <li><a href="about-us.html">About Us</a></li>
                 </ul>
