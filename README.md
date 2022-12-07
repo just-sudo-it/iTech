@@ -1,2 +1,2 @@
 # iTech
-Static HTML website for PC parts
+Static HTML minimal demo website for tech products
