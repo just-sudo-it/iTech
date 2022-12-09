@@ -12,31 +12,34 @@
 
 <body>
     <div class="grid-container">
-        <header id="pageHeader" class="site-header grid-item">
-            <div class="navbar">
-                <a href="index.html">
-                    <img src="../images/logo.png" alt="logo" class="logo">
-                </a>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="product-categories.html">Products</a></li>
-                        <li><a href="about-us.html">About us</a></li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <header id="pageHeader" class="site-header">
+            <a href="index.html">
+                <img src="../images/logo.png" alt="logo" class="logo">
+            </a>
+
+            <input class="menu-btn" id="menu-btn" type="checkbox" />
+
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn">
+                <span class="navicon"></span>
+            </label>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product-categories.html">Products</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
         </header>
 
         <main id="mainArticle">
             <img src="../images/contact-us.jpg" alt="main-background" class="hero-img">
             <section style="height: auto;">
-                <div class="card col-50 icon-component">
+                <div class="card col-50 frame information-card icon-component">
                     <img src="../images/24-hours.png" alt="icon">
                     <h3>All around the clock</h3>
                     <h5>Our real-time response always satisfies the end user.</h5>
                 </div>
-                <div class="card col-50 icon-component">
+                <div class="card col-50 frame information-card icon-component">
                     <img src="../images/contact-us-icon1.png" alt="icon">
                     <h3>Always With you</h3>
                     <h5>If you are interested in us, please complete the form .</h5>
@@ -106,22 +109,23 @@
                 to push their creativity, these industry-leading apps offer maximum
                 control over editing, processing, and output of music and film.
             </p>
-            <h3>Don’t take it lightly.</h3>
+            <h3 style="color:white!important">Don’t take it lightly.</h3>
             <ul class="socials">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/lefteris-michailidis-514525150/"><i
+                            class="fa fa-linkedin-square"></i></a></li>
             </ul>
-    </div>
-    <div class="footer-bottom">
-        <p>copyright &copy; <a href="#">Lefteris Michailidis - 0030 6982525424</a> </p>
-        <div class="footer-menu">
-            <ul class="f-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="product-categories.html">Products</a></li>
-                <li><a href="contact-us.html" class="w3-bar-item w3-button">Contact Us</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-            </ul>
-        </div>
+
+            <div class="footer-bottom">
+                <p>copyright &copy; <a href="#">Lefteris Michailidis - 0030 6982525424</a> </p>
+                <div class="footer-menu">
+                    <ul class="f-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product-categories.html">Products</a></li>
+                        <li><a href="contact-us.html" class="w3-bar-item w3-button">Contact Us</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                    </ul>
+                </div>
         </footer>
     </div>
 </body>
