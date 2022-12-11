@@ -46,11 +46,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-* {
-  box-sizing: border-box;
-}
-
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -73,6 +68,8 @@
 #pageFooter {
   grid-area: footer;
 }
+
+
 body {
   background-color: white;
   font-size: 15px;
@@ -639,7 +636,6 @@ ol.gradient-list-alt > li {
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: block;
-  
   width: 100%;
 }
 
@@ -748,6 +744,7 @@ ol.gradient-list-alt > li {
 }
 
 /**/
+
 /* contact us styling*/
 #form-container-id {
   width: 720px;
@@ -798,7 +795,7 @@ input[type="submit"] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type="submit"]:hover {
+input[type="submit"] :hover {
   background-color: var(--orange1);
   transition-duration: 500ms;
 }
@@ -944,7 +941,7 @@ footer {
   .site-header .menu-icon {
     display: none;
   }
-  }
+}
 
 
 /* RESPONSIVE*/
